@@ -49,8 +49,8 @@ module.exports = {
     FAKE_TYPING: process.env.FAKE_TYPING || "false",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
-    AUTO_REACT: process.env.AUTO_REACT || "true",
-    HEART_REACT: process.env.HEART_REACT || "true",
+    AUTO_REACT: process.env.AUTO_REACT || "false",
+    HEART_REACT: process.env.HEART_REACT || "false",
     OWNER_NUMBER: process.env.OWNER_NUMBER || "225779072323",
     OWNER_NAME: process.env.OWNER_NAME || "Orewa Cheikh san",
     READ_CMD: process.env.READ_CMD || "true",
@@ -58,7 +58,7 @@ module.exports = {
     STATUS_REPLY: process.env.STATUS_REPLY || "`➺үσυя sтαтυs sεεη נυsт ησω вү ∂αяк-sιℓεηcε-м∂`",
     STATUS_REACT: process.env.STATUS_REACT || "true",
     INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
-    ANTI_VV: process.env.ANTI_VV || "true",// true for anti once view 
+    ANTI_VV: process.env.ANTI_VV || "false",// true for anti once view 
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", // change it to 'log' if you want to resend deleted message in ib chat 
     OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39"// omdbapi.com
 };
